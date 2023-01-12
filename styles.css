@@ -1,0 +1,50 @@
+body {
+    background-color: #FFFFFF;
+    color: rgba(23,23,23,.8);
+    font-size: 16px;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 100;
+    text-align: justify;
+    letter-spacing: 0.02em;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border-width: 0px 0px 0px 0px;
+}
+
+.container{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border-width: 0px 0px 0px 0px;
+}
+.about{
+    margin: 25px 25px 25px 25px;
+}
+.navigate{
+    background-color: #072840;
+    color: #000000;
+    font-size: 16px;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 200;
+    letter-spacing: 0.02em;
+    margin: 0px 0px 0px 0px;
+}
+.welcome {
+    object-fit:cover;
+}
+
+.header {
+    font-size: 16px;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    text-align: left;
+    color: #000000;
+    letter-spacing: 0.02em;
+    margin: 25px 25px 25px 25px;
+}
+
+.section {
+    vertical-align: middle;
+    text-align: left;
+    margin: 0px 0px 0px 0px;
+    padding-left:0px;
+}
