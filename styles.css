@@ -1,9 +1,11 @@
 body {
     background-color: #FFFFFF;
-    color: rgba(23,23,23,.8);
+/*     color: rgba(23,23,23,.8); */
+    color: #000000
     font-size: 16px;
     line-height: 150%;
-    font-family: proxima-nova, sans-serif;
+    font-family: perpetua;
+/*     font-family: proxima-nova, sans-serif; */
     font-weight: 100;
     text-align: justify;
     letter-spacing: 0.02em;
@@ -24,7 +26,8 @@ body {
     background-color: #072840;
     color: #000000;
     font-size: 16px;
-    font-family: proxima-nova, sans-serif;
+    font-family: perpetua;
+/*     font-family: proxima-nova, sans-serif; */
     font-weight: 200;
     letter-spacing: 0.02em;
     margin: 0px 0px 0px 0px;
@@ -37,9 +40,9 @@ body {
     width: 75%; 
 }
 .header {
-    font-family: proxima-nova, sans-serif;
+/*     font-family: proxima-nova, sans-serif; */
+    font-family: perpetua;
     font-size: 16px;
-    line-height: 150%
     font-weight: 400;
     color: #000000;
     text-align: justify;
