@@ -55,8 +55,8 @@ body {
     padding: 0px 0px 0px 0px;
     border-width: 0px 0px 0px 0px; */
 }
-.bold {
-font-weight:bold;
+.middle {
+horizontal-align:middle;
 }
 .section {
     vertical-align: middle;
