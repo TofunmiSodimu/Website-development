@@ -46,7 +46,9 @@ body {
     padding: 0px 0px 0px 0px;
     border-width: 0px 0px 0px 0px;
 }
-
+.bold {
+font-weight:bold;
+}
 .section {
     vertical-align: middle;
     text-align: left;
