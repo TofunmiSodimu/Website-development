@@ -36,10 +36,12 @@ body {
     font-size: 16px;
     font-family: proxima-nova, sans-serif;
     font-weight: 400;
-    text-align: left;
+    text-align: justify;
     color: #000000;
     letter-spacing: 0.02em;
-    margin: 25px 25px 25px 25px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border-width: 0px 0px 0px 0px;
 }
 
 .section {
