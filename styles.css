@@ -58,6 +58,9 @@ body {
 .middle {
 text-align: center;
 }
+.caption {
+    font-size: 12px;
+}
 .section {
     vertical-align: middle;
     text-align: left;
