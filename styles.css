@@ -4,7 +4,7 @@ body {
     color: #000000
     font-size: 16px;
     line-height: 150%;
-    font-family: perpetua;
+    font-family: cambria;
 /*     font-family: proxima-nova, sans-serif; */
     font-weight: 100;
     text-align: justify;
@@ -41,8 +41,8 @@ body {
 }
 .header {
 /*     font-family: proxima-nova, sans-serif; */
-    font-family: perpetua;
-    font-size: 16px;
+    font-family: cambria;
+    font-size: 32px;
     font-weight: 400;
     color: #000000;
     text-align: justify;
