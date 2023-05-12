@@ -2,6 +2,7 @@ body {
     background-color: #FFFFFF;
     color: rgba(23,23,23,.8);
     font-size: 16px;
+    line-height: 150%;
     font-family: proxima-nova, sans-serif;
     font-weight: 100;
     text-align: justify;
@@ -38,8 +39,10 @@ body {
 .header {
     font-family: proxima-nova, sans-serif;
     font-size: 16px;
+    line-height: 150%
     font-weight: 400;
     color: #000000;
+    text-align: justify;
 /*     font-size: 16px;
     font-weight: 400;
     text-align: justify;
