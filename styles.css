@@ -36,15 +36,15 @@ body {
     width: 75%; 
 }
 .header {
-    font-size: 16px;
     font-family: proxima-nova, sans-serif;
+/*     font-size: 16px;
     font-weight: 400;
     text-align: justify;
     color: #000000;
     letter-spacing: 0.02em;
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
-    border-width: 0px 0px 0px 0px;
+    border-width: 0px 0px 0px 0px; */
 }
 .bold {
 font-weight:bold;
