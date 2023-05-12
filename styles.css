@@ -31,7 +31,10 @@ body {
 .welcome {
     object-fit:cover;
 }
-
+.col-container{
+    display: table;
+    width: 75%; 
+}
 .header {
     font-size: 16px;
     font-family: proxima-nova, sans-serif;
