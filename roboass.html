@@ -91,6 +91,21 @@
                   src="https://www.youtube.com/embed/QUB79UTbwvE?autoplay=1&mute=1" class="mx-auto d-block">
                   </iframe>
                   <p></p>
+                  <p class="middle"> <span class="header"> Conclusion and Future Work </span> </p>
+                  <p>This project was presented at a Thinktank session with MCI patients in attendance. From this session, we were able to deduce multiple limitations of our implementation and able to garner information on certain features that could be implemented to improve the robustness of our system.</p> 
+                  <p> Some of these limitations include: </p>
+                  <ul>
+                      <li> Misclassified objects due to poor lighting or proximity to camera </li>
+                      <li> Unreliability of the system for finding occluded objects or objects within a drawer </li>
+                      <li> Objects being overlooked if misplaced at some time between the robot’s routine scans </li>
+                  </ul>
+                  <p> To address these limitations, we intend to explore the following methods: </p>
+                  <ul>
+                      <li> Use of stretch’s hand-mounted camera to enable the robot to get close-up images of surfaces at different heights for more accurate object detection/classification.</li>
+                      <li> Possible use of Ultra High Definition Radio Frequency Identification (UHR RFID) to find partially/fully occluded objects. </li>
+                      <li> Scanning based on how frequently a user enters the room: In situations where the object is not immediately occluded, the robot may be able to spot the object if its scanning routine is optimized to coincide with certain motion patterns observed in the user [7]. The data used for optimization could be generated from a user-completed survey on how frequently they are likely to visit a particular room. The data could be further supplemented by tracking how frequently the missing object is found at a specific waypoint or in a specific room.</li>
+                  <p></p>
+                  <p></p>
                   <p class="middle"> <span class="header"> References </span> </p>
                   <ul class = "no-bullets">
                       <li>
@@ -104,6 +119,15 @@
                       </li>
                       <li>
                           [4] McGarrigle, L., Howlett, S. E., Wong, H., Stanley, J., & Rockwood, K. (2019). Characterizing the symptom of misplacing objects in people with dementia: Findings from an online tracking tool. International Psychogeriatrics, 31(11). https://doi.org/10.1017/S104161021800220X
+                      </li>
+                      <li>
+                          [5] Deyle, T., Reynolds, M. S., & Kemp, C. C. (2014). Finding and navigating to household objects with UHF RFID tags by optimizing RF signal strength. IEEE International Conference on Intelligent Robots and Systems. https://doi.org/10.1109/IROS.2014.6942914
+                      </li>
+                      <li>
+                            [6] Lopes, P., Pino, M., Carletti, G., Hamidi, S., Legué, S., Kerhervé, H., Benveniste, S., Andéol, G., Bonsom, P., Reingewirtz, S., & Rigaud, A. S. (2016). Co-Conception Process of an Innovative Assistive Device to Track and Find Misplaced Everyday Objects for Older Adults with Cognitive Impairment: The TROUVE Project. IRBM, 37(2). https://doi.org/10.1016/j.irbm.2016.02.004
+                      </li>
+                      <li>
+                            [7] Molina, S., Cielniak, G., & Duckett, T. (2022). Robotic Exploration for Learning Human Motion Patterns. Institute of Electrical and Electronic Engineers, 38(2), 1304–1318.
                       </li>
                    </ul>
                </h5>          
