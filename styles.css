@@ -58,6 +58,9 @@ body {
 .middle {
 text-align: center;
 }
+.bold {
+     font-weight: 200;
+}
 .caption {
     font-size: 14px;
 }
