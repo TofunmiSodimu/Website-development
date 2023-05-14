@@ -48,9 +48,10 @@ text-align: center;
 }
 
 .bold {
-    color: #000000
+    font-family: cambria;
     font-size: 32px;
     font-weight: 400;
+    color: #000000;
 }
 
 .caption {
