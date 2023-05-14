@@ -73,38 +73,39 @@
           <div class="row about">
           <div class = "col-12">
               <h5> 
-              <p class="middle"> <span class = "header"> Robotic Assistant for Finding Misplaced Objects </span></p>
-              <p class="middle"> <span class = "bold"> Course: </span> BMED 8813 - Robotics Caregivers, Gatech, USA </p>
-              <p class="middle"> <span class = "bold"> Team members: </span> Oluwatofunmi M Sodimu, Juan Antonio Robledo, Erin Kelly, Thanapol Tantagunninat, Kanishk., Daniel Lewis, and Nikhil Chittaluru </p>
-              <p class="middle"> <span class = "bold"> Robotics Caregiver Course Advisor: </span> Dr. Charlie Kemp </p>
+                  <p class="middle"> <span class = "header"> Robotic Assistant for Finding Misplaced Objects </span></p>
+                  <p class="middle"> <span class = "bold"> Course: </span> BMED 8813 - Robotics Caregivers, Gatech, USA </p>
+                  <p class="middle"> <span class = "bold"> Team members: </span> Oluwatofunmi M Sodimu, Juan Antonio Robledo, Erin Kelly, Thanapol Tantagunninat, Kanishk., Daniel Lewis, and Nikhil Chittaluru </p>
+                  <p class="middle"> <span class = "bold"> Robotics Caregiver Course Advisor: </span> Dr. Charlie Kemp </p>
                   <p></p>
-              <p> <span class = "bold"> Mild Cognitive Impairment (MCI) </span> is an early-stage decline in memory, language perception, visual perception, and/or other cognitive abilities that is greater than expected for an individual’s age and education level, but that does not greatly impact their ability to perform everyday activities [1]. Research has shown that this condition is present in 3-19% of people over the age of 65 [1]. Individuals who experience a decline predominantly in their memory capacity are said to have Amnestic MCI. One common symptom of this condition is misplacing objects due to the inability to recall where the item was last kept [2],[3],[4]. This could cause patients to feel distressed, anxious, or even accuse their care partner of moving the object. To address this issue, we proposed the use of a robot to keep track of commonly misplaced objects and recall their location upon request.</p>
-              <p></p>
-              <p>In our implementation, the robot routinely navigates the home based on a pre-generated map and captures images of the surfaces found at each of the pre-set waypoints. These images are passed through an object classification model to identify the items within them. The names of the identified objects, timestamp, and location are stored in a JSON database. Upon request by the user, the database is scanned for all instances of the missing object, and the associated images are displayed on a screen for the user to confirm that it is indeed the object they are searching for. Finally, the robot leads the user to the object’s location and points at it.</p>
-              <p></p>
-              <img src="illustration2.png" alt="Responsive image" width="600" height="400"class="img-fluid img-thumbnail img-responsive mx-auto d-block">
-              <p class="caption middle"> Figure 1: Illustration of current implementation of the Robotic Assistance for Misplaced Objects system </p>
-              <p></p>
-              <p class="header"> Demo </p>
-              <p></p>
-              <iframe width="420" height="315"
-              src="https://www.youtube.com/embed/QUB79UTbwvE?autoplay=1&mute=1" class="mx-auto d-block">
-              </iframe>
-              <p class="bold"> References </p>
-              <ul class = "no-bullets">
-                  <li>
-                    [1] Gauthier, S., Reisberg, B., Zaudig, M., Petersen, R. C., Ritchie, K., Broich, K., Belleville, S., Brodaty, H., Bennett, D., Chertkow, H., Cummings, J. L., de Leon, M., Feldman, H., Ganguli, M., Hampel, H., Scheltens, P., Tierney, M. C., Whitehouse, P., & Winblad, B. (2006). Mild cognitive impairment. In Lancet (Vol. 367, Issue 9518). https://doi.org/10.1016/S0140-6736(06)68542-5
-                  </li>
-                  <li>
-                    [2] Hamilton, L., Fay, S., & Rockwood, K. (2009). Misplacing objects in mild to moderate Alzheimer’s disease: A descriptive analysis from the VISTA clinical trial. Journal of Neurology, Neurosurgery and Psychiatry, 80(9). https://doi.org/10.1136/jnnp.2008.166801
-                  </li>
-                  <li>
-                    [3] Boudet, B., Giacobini, T., Ferrané, I., Fortin, C., Mollaret, C., Lerasle, F., & Rumeau, P. (2014). What are the objects lost by frail elderly at home? A pilot study of 60 people. NPG Neurologie - Psychiatrie - Geriatrie, 14(79). https://doi.org/10.1016/j.npg.2013.10.004
-                  </li>
-                  <li>
-                      [4] McGarrigle, L., Howlett, S. E., Wong, H., Stanley, J., & Rockwood, K. (2019). Characterizing the symptom of misplacing objects in people with dementia: Findings from an online tracking tool. International Psychogeriatrics, 31(11). https://doi.org/10.1017/S104161021800220X
-                  </li>
-               </ul>
+                  <p> <span class = "bold"> Mild Cognitive Impairment (MCI) </span> is an early-stage decline in memory, language perception, visual perception, and/or other cognitive abilities that is greater than expected for an individual’s age and education level, but that does not greatly impact their ability to perform everyday activities [1]. Research has shown that this condition is present in 3-19% of people over the age of 65 [1]. Individuals who experience a decline predominantly in their memory capacity are said to have Amnestic MCI. One common symptom of this condition is misplacing objects due to the inability to recall where the item was last kept [2],[3],[4]. This could cause patients to feel distressed, anxious, or even accuse their care partner of moving the object. To address this issue, we proposed the use of a robot to keep track of commonly misplaced objects and recall their location upon request.</p>
+                  <p></p>
+                  <p>In our implementation, the robot routinely navigates the home based on a pre-generated map and captures images of the surfaces found at each of the pre-set waypoints. These images are passed through an object classification model to identify the items within them. The names of the identified objects, timestamp, and location are stored in a JSON database. Upon request by the user, the database is scanned for all instances of the missing object, and the associated images are displayed on a screen for the user to confirm that it is indeed the object they are searching for. Finally, the robot leads the user to the object’s location and points at it.</p>
+                  <p></p>
+                  <img src="illustration2.png" alt="Responsive image" width="600" height="400"class="img-fluid img-thumbnail img-responsive mx-auto d-block">
+                  <p class="caption middle"> Figure 1: Illustration of current implementation of the Robotic Assistance for Misplaced Objects system </p>
+                  <p></p>
+                  <p class="middle"> <span class="header"> Demo Video </span> </p>
+                  <p></p>
+                  <iframe width="420" height="315"
+                  src="https://www.youtube.com/embed/QUB79UTbwvE?autoplay=1&mute=1" class="mx-auto d-block">
+                  </iframe>
+                  <p></p>
+                  <p class="middle"> <span class="header"> References </span> </p>
+                  <ul class = "no-bullets">
+                      <li>
+                        [1] Gauthier, S., Reisberg, B., Zaudig, M., Petersen, R. C., Ritchie, K., Broich, K., Belleville, S., Brodaty, H., Bennett, D., Chertkow, H., Cummings, J. L., de Leon, M., Feldman, H., Ganguli, M., Hampel, H., Scheltens, P., Tierney, M. C., Whitehouse, P., & Winblad, B. (2006). Mild cognitive impairment. In Lancet (Vol. 367, Issue 9518). https://doi.org/10.1016/S0140-6736(06)68542-5
+                      </li>
+                      <li>
+                        [2] Hamilton, L., Fay, S., & Rockwood, K. (2009). Misplacing objects in mild to moderate Alzheimer’s disease: A descriptive analysis from the VISTA clinical trial. Journal of Neurology, Neurosurgery and Psychiatry, 80(9). https://doi.org/10.1136/jnnp.2008.166801
+                      </li>
+                      <li>
+                        [3] Boudet, B., Giacobini, T., Ferrané, I., Fortin, C., Mollaret, C., Lerasle, F., & Rumeau, P. (2014). What are the objects lost by frail elderly at home? A pilot study of 60 people. NPG Neurologie - Psychiatrie - Geriatrie, 14(79). https://doi.org/10.1016/j.npg.2013.10.004
+                      </li>
+                      <li>
+                          [4] McGarrigle, L., Howlett, S. E., Wong, H., Stanley, J., & Rockwood, K. (2019). Characterizing the symptom of misplacing objects in people with dementia: Findings from an online tracking tool. International Psychogeriatrics, 31(11). https://doi.org/10.1017/S104161021800220X
+                      </li>
+                   </ul>
                </h5>          
          
           </div>
