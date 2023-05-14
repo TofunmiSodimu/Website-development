@@ -1,11 +1,9 @@
 body {
     background-color: #FFFFFF;
-/*     color: rgba(23,23,23,.8); */
     color: #000000
     font-size: 16px;
     line-height: 150%;
     font-family: cambria;
-/*     font-family: proxima-nova, sans-serif; */
     font-weight: 100;
     text-align: justify;
     letter-spacing: 0.02em;
@@ -27,7 +25,6 @@ body {
     color: #000000;
     font-size: 16px;
     font-family: cambria;
-/*     font-family: proxima-nova, sans-serif; */
     font-weight: 200;
     letter-spacing: 0.02em;
     margin: 0px 0px 0px 0px;
@@ -40,40 +37,36 @@ body {
     width: 75%; 
 }
 .header {
-/*     font-family: proxima-nova, sans-serif; */
     font-family: cambria;
     font-size: 32px;
     font-weight: 400;
     color: #000000;
     text-align: center;
-/*     font-size: 16px;
-    font-weight: 400;
-    text-align: justify;
-    color: #000000;
-    letter-spacing: 0.02em;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-    border-width: 0px 0px 0px 0px; */
 }
+
 .middle {
 text-align: center;
 }
+
 .bold {
     color: #000000
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 400;
 }
+
 .caption {
     font-size: 14px;
 }
+
 .section {
     vertical-align: middle;
     text-align: left;
     margin: 0px 0px 0px 0px;
     padding-left:0px;
 }
+
 .no-bullets {
-  list-style-type: none; /* Remove bullets */
-  padding: 0; /* Remove padding */
-  margin: 0; /* Remove margins */
+  list-style-type: none;
+  padding: 0;
+  margin: 0; 
 }
